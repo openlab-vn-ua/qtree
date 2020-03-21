@@ -1,0 +1,41 @@
+/* Fancy node text markers */
+
+li.qtree {
+    list-style-type: none;
+}
+
+li.qtree:before {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -2px;
+}
+
+li.qtree-node-without-children:before {
+    content: "▶";
+    opacity: 0;
+}
+
+li.qtree-node-with-children.qtree-subtree-collapsed:before {
+    content: "▷";
+}
+
+li.qtree-node-with-children.qtree-subtree-open:before {
+    content: "◢";
+}
+
+/* Hover color on fancy marker */
+
+li.qtree-node-with-children.qtree-subtree-collapsed:hover:before {
+    color: blueviolet;
+}
+
+li.qtree-node-with-children.qtree-subtree-open:hover:before {
+    color: blueviolet;
+}
+
+/* Hover color actual node */
+
+li.qtree div:hover {
+    background-color: lightblue
+}
+
