@@ -1,5 +1,5 @@
 # qtree
-Quick pure html + java script tree view system (optimised for thousands nodes)
+Quick pure html + javascript tree view module (optimised for thousands nodes)
 
 ## Propose
 This tree implemenation allows to create expandable UI/LI tree structures with tenth of thosusands of nodes.
