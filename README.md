@@ -21,7 +21,7 @@ This tree implemenation allows to create expandable UI/LI tree structures with t
     var treeData = [
         { text: '1-Root', children: [{ text: '1-1 Node' }, { text: '1-2 Node', id: 'test id 12', children: [] }] },
         { text: '2-Root', id:'root_2'},
-        { html: '3-Root <b>with tml</b> content' }
+        { html: '3-Root <b>with html</b> content' }
     ];
     var opts = { hasCheckboxes: true, isSelectable: true };
     var tree = qTree(document.getElementById('treeContainer'), treeData, opts);
